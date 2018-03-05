@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: auto;
+	background: url(../img/img_body.png.) no-repeat center;
+}
+
+/*Обгортка*/
+.wreaper{
+	width: 960px;
+	height: 1338px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 39px;
+	margin-bottom: 40px;
+	border-radius: 7px;
+	
+}
+
+/*Шапка сайту*/
+
+.header-top{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background: url(../img/tel.png) no-repeat top right;
+
+}
+
+.logo{
+	margin-top: 31px;
+	margin-left: 40px;
+	position: absolute;
+}
+/*Навігація сайту*/
+
+.navigation{
+	display: flex;
+	justify-content: center;
+	margin-left: 444px;
+
+
+}
+
+.header-menu{
+    margin-top: 57px;
+    padding-right: 26px;
+}
+
+.header-menu a{
+    font: bold 12px 'Arial';
+    color: #808080;
+    text-decoration: none;
+    padding:  7px 15px ;
+
+}
+
+.header-menu a:hover{
+    border: 1px solid #00224b;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0038a8+45,0073c0+84 */
+    background: rgb(0,56,168); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,56,168,1) 45%, rgba(0,115,192,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,56,168,1) 45%,rgba(0,115,192,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,56,168,1) 45%,rgba(0,115,192,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0038a8', endColorstr='#0073c0',GradientType=0 ); /* IE6-9 */
+}
+
+/*Контент зі слайдером*/
+.content-slider{
+    width: 100%;
+	height: 336px;
+	position: relative;
+	
+}
+
+.header-bottom{
+	width: 100%;
+	height: 336px;
+	position: absolute;
+}
+
+.here{
+	width: 100%;
+	height: 56px;
+	position: absolute;
+	margin: 222px 0 0 56px;
+}
+.slider-text{
+	position: absolute;
+	margin: 94px 0 0 53px;
+}
+
+.slider-text p{
+	font: bold 25px 'Arial';
+	color: #ffffff;
+}
+
+.slider-text h2{
+	font: bold 29px 'Arial';
+	color: #ffffff;
+}
+
+
+/*Інформаційний контент*/
+.content-iformation{
+	width: 100%;
+	height: 122px;
+	background: #ededed;
+	font: 11px 'Arial';
+	border-bottom: 1px solid #cecece;
+}
+
+.inform-content{
+	display: flex;
+	justify-content: center;
+	margin-left: 52px;
+	padding-top: 39px;	
+}
+
+.inform img{
+   margin-right: 18px;
+
+}
+
+
+.inform p{
+    color: #4f4f4f;
+    margin-right: 75px;
+}
+
+.inform span{
+	font: bold 16px 'Arial';
+	color: #575757;
+}
+
+
+
+/*Центральний контент*/
+.centr-content{
+    width: 100%;
+    height: 475px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	margin: 39px 0 0 40px;
+	
+}
+
+.content-vse h2{
+	margin-bottom: 25px;
+	color: #585858;
+
+}
+
+.content-vse p{
+	font: 12px 'Arial';
+	color: #4f4f4f;
+	margin-bottom: 20px;
+
+}
+
+.imag{
+	margin-bottom: 24px;
+	padding-right: 40px;
+
+}
+
+.use{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.next{
+padding-bottom:  15px;
+}
+
+.next img{
+	margin-right: 10px;
+}
+
+.use hr{
+ border: 1px dashed #838383; 
+ width: 265px; 
+ margin-bottom: 9px;
+}
+
+.next a{
+	color: #0f4db6;
+	text-decoration: none;
+	font: 12px 'Arial';
+	
+}
+
+.next a:hover{
+	color: #f98b2a;
+}
+
+.next hr{
+	margin: 0 0 16px 0;
+}
+
+/*Футер*/
+.footer{
+	width: 100%;
+	height: 263px;
+	background: #ededed;
+	border-top: 1px solid #bababa ;
+	border-radius: 0 0 7px 7px;
+
+}
+
+.footer hr{
+	color: #fff;
+	margin-top: 8px;
+}
+
+.list{
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px 0 0 42px;
+}
+
+.spisok ul{
+	margin-left: 110px;
+	margin-top: 18px;
+	
+}
+
+.spisok li{
+	list-style-type: none;
+	font: 10px 'Arial';
+	color: #585858; 
+
+}
+
+.li{
+  padding-bottom: 3px;"
+}
+
+.li-bottom{
+	padding-bottom: 5px;
+}
+
+
+.spisok span{
+	color: #0f4db6;
+	font: bold 10px 'Arial';
+}
+
+.spisok a{
+	text-decoration: none; 
+	font: 13px 'Arial';
+	color: #585858;
+
+}
+
+.spisok a:hover{
+	color: #0f4db6;
+}
+
+.spisok p{
+	font: bold 13px 'Arial';
+	margin-left: 110px;
+	color: #585858;
+}
+
+.spisok h4{
+	margin-bottom: 18px;
+	color: #585858;
+}
+
+.copyright{
+	display: flex;
+	justify-content: flex-start;
+	 
+}
+
+
+.copyright-bussiness p{
+    color: #4f4f4f;
+    font: 11px 'Arial';
+    margin: 40px 0 0 42px ;
+}
+
+.sety{
+ display: flex;
+ justify-content: flex-end;
+ margin-bottom: 20px;
+}
+
+.sety-b{
+	margin: 38px 0 0 226px;
+}
+
+.sety-bb{
+	margin: 38px 0 0 85px;
+}

@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: auto;
+	background: url(../img/background-portfolio.png.) no-repeat center;
+}
+
+/*Обгортка*/
+.wreaper{
+	width: 960px;
+	height: 1336px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 39px;
+	margin-bottom: 40px;
+	border-radius: 7px;
+	
+}
+
+/*Шапка сайту*/
+.header-top{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background: url(../img/tel.png) no-repeat top right;
+
+}
+
+.logo{
+	margin-top: 31px;
+	margin-left: 40px;
+	position: absolute;
+}
+
+/*Навігація сайту*/
+.navigation{
+	display: flex;
+	justify-content: center;
+	margin-left: 444px;
+
+
+}
+
+.header-menu{
+    margin-top: 57px;
+    padding-right: 26px;
+}
+
+.header-menu a{
+    font: bold 12px 'Arial';
+    color: #808080;
+    text-decoration: none;
+    padding:  7px 15px ;
+
+}
+
+.header-menu a:hover{
+    border: 1px solid #00224b;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0038a8+45,0073c0+84 */
+    background: rgb(0,56,168); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,56,168,1) 45%, rgba(0,115,192,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,56,168,1) 45%,rgba(0,115,192,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,56,168,1) 45%,rgba(0,115,192,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0038a8', endColorstr='#0073c0',GradientType=0 ); /* IE6-9 */
+}
+
+/*Нижний хедер*/
+.header-bottom{
+	width: 100%;
+	height: 84px;
+	position: relative;
+	
+	
+}
+
+
+.portfolio-navigation{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	margin: 33px 0 0 502px;	
+}
+
+.portf a{
+	text-decoration: none;
+	color: #6aa2ce;
+	margin-right: 26px;
+	font: 14px 'Arial';
+	
+}
+
+.portf a:hover{
+	color: #fff;
+}
+
+
+.about-header img{
+	width: 100%;
+	height: 84px;
+	position: absolute;
+	
+}
+
+
+/*Центральний Контент*/
+.center{
+	width: 960px;
+	height: 790px;
+}
+
+.tovar{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 34px 0 0  39px;
+}
+
+.tovaru p{
+	font: 11px 'Arial';
+	margin: 22px 0 45px 0;
+	color: #4f4f4f;
+	line-height: 18px;
+}
+
+.tovaru span{
+	font: bold 14px 'Arial';
+	color: #4f4f4f;
+	
+}
+
+.tovaru img{
+	margin-right: 42px; 
+}
+
+/* Навігація Сторінкова*/
+.post-nav{
+	width: 960px;
+	height: 61px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3f3f3+0,ffffff+37 */
+background: rgb(243,243,243); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(255,255,255,1) 37%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(243,243,243,1) 0%,rgba(255,255,255,1) 37%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(243,243,243,1) 0%,rgba(255,255,255,1) 37%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.storinku{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 39px;
+	padding-top: 14px;
+}
+
+.psnav a{
+	text-decoration: none;
+	margin: 0 6px 0 0;
+	color: #0f4db6;
+}
+
+.psnav a:hover{
+	color: #000;
+}
+
+
+
+/*Футер*/
+.footer{
+	width: 100%;
+	height: 263px;
+	background: #ededed;
+	border-top: 1px solid #bababa ;
+	border-radius: 0 0 7px 7px;
+
+}
+
+.footer hr{
+	color: #fff;
+	margin-top: 8px;
+}
+
+.list{
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px 0 0 42px;
+}
+
+.spisok ul{
+	margin-left: 110px;
+	margin-top: 18px;
+	
+}
+
+.spisok li{
+	list-style-type: none;
+	font: 10px 'Arial';
+	color: #585858; 
+
+}
+
+.li{
+  padding-bottom: 3px;"
+}
+
+.li-bottom{
+	padding-bottom: 5px;
+}
+
+
+.spisok span{
+	color: #0f4db6;
+	font: bold 10px 'Arial';
+}
+
+.spisok a{
+	text-decoration: none; 
+	font: 13px 'Arial';
+	color: #585858;
+
+}
+
+.spisok a:hover{
+	color: #0f4db6;
+}
+
+.spisok p{
+	font: bold 13px 'Arial';
+	margin-left: 110px;
+	color: #585858;
+}
+
+.spisok h4{
+	margin-bottom: 18px;
+	color: #585858;
+}
+
+.copyright{
+	display: flex;
+	justify-content: flex-start;
+	 
+}
+
+
+.copyright-bussiness p{
+    color: #4f4f4f;
+    font: 11px 'Arial';
+    margin: 40px 0 0 42px ;
+}
+
+.sety{
+ display: flex;
+ justify-content: flex-end;
+ margin-bottom: 20px;
+}
+
+.sety-b{
+	margin: 38px 0 0 226px;
+}
+
+.sety-bb{
+	margin: 38px 0 0 85px;
+}

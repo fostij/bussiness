@@ -5,7 +5,7 @@
 body{
 	width: 100%;
 	height: auto;
-	background: url(Bussiness/img/img_body.png.) no-repeat center;
+	background: url(../img/img_body.png.) no-repeat center;
 }
 
 /*Обгортка*/

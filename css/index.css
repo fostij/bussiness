@@ -5,7 +5,7 @@
 body{
 	width: 100%;
 	height: auto;
-	background: #000;
+	background: url(../img/img-body.png.) no-repeat center;
 }
 
 /*Обгортка*/
